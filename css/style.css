@@ -1,0 +1,154 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.iphone-screen {
+  width: 375px;
+  height: 667px;
+  margin: 0px auto;
+  position: relative;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+.ws-map {
+  position: absolute;
+  width: 382px;
+  height: 159px;
+  left: -7px;
+  top: 71px;
+}
+
+body {
+  font-family: SF Pro Display;
+}
+
+.station-title {
+position: absolute;
+width: 171px;
+height: 24px;
+left: 96px;
+top: 37px;
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+font-size: 20px;
+}
+
+.arrow {
+  position: absolute;
+  width: 27px;
+  height: 27px;
+  left: 11px;
+  top: 33px;
+}
+
+.row {
+  position: relative;
+  width: 375px;
+  height: 105px;
+  left: 0px;
+  top: 215px;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+
+
+.bus-info {
+  position: relative;
+  width: 268px;
+  height: 105px;
+  padding-top: 10px;
+  background: rgba(200, 199, 204, 0.43);
+}
+
+.bus-info-full {
+  position: relative;
+  width: 375px;
+  height: 105px;
+  padding-top: 10px;
+  background: rgba(200, 199, 204, 0.19);
+  color: #BDBDBD;
+}
+
+.bus-time{
+  position: relative;
+  width: 107px;
+  height: 105px;
+  left: 268px;
+  bottom: 105px;
+}
+
+.orange{
+  background: rgba(255, 149, 0, 0.47);
+}
+
+.green{
+  background: rgba(76, 217, 100, 0.56);
+}
+
+.red{
+  background: rgba(255, 59, 48, 0.55);
+}
+
+.bus-number {
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+font-size: 28px;
+position: absolute;
+left: 20px;
+}
+
+.time-left {
+position: relative;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+font-size: 20px;
+top: 30px;
+text-align: center;
+color: white;
+width: 100px;
+}
+
+.time-left-resumes {
+position: absolute;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+font-size: 20px;
+top: 25px;
+text-align: center;
+color: #4F4C4C;
+float: left;
+padding-left: 100px;
+padding-top: 45px;
+}
+
+
+.bus-number {
+position: relative;
+left: 28px;
+font-weight: 600;
+line-height: normal;
+font-size: 28px;
+}
+
+.direction {
+  position: relative;
+  left: 28px;
+  font-weight: 300;
+  line-height: normal;
+  font-size: 20px;
+}
+
+.street {
+  position: relative;
+  left: 28px;
+  font-style: italic;
+  font-weight: lighter;
+  line-height: normal;
+  font-size: 18px;
+}
