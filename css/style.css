@@ -24,16 +24,16 @@ body {
 }
 
 .station-title {
-position: absolute;
-width: 171px;
-height: 24px;
-left: 96px;
-top: 37px;
-font-family: SF Pro Display;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-font-size: 20px;
+  position: absolute;
+  width: 171px;
+  height: 24px;
+  left: 96px;
+  top: 37px;
+  /* font-family: SF Pro Display; */
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 20px;
 }
 
 .arrow {
@@ -93,47 +93,47 @@ font-size: 20px;
 }
 
 .bus-number {
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-font-size: 28px;
-position: absolute;
-left: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-size: 28px;
+  position: absolute;
+  left: 20px;
 }
 
 .time-left {
-position: relative;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-font-size: 20px;
-top: 30px;
-text-align: center;
-color: white;
-width: 100px;
+  position: relative;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  font-size: 20px;
+  top: 30px;
+  text-align: center;
+  color: white;
+  width: 100px;
 }
 
 .time-left-resumes {
-position: absolute;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-font-size: 20px;
-top: 25px;
-text-align: center;
-color: #4F4C4C;
-float: left;
-padding-left: 100px;
-padding-top: 45px;
+  position: absolute;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 20px;
+  top: 25px;
+  text-align: center;
+  color: #4F4C4C;
+  float: left;
+  padding-left: 100px;
+  padding-top: 45px;
 }
 
 
 .bus-number {
-position: relative;
-left: 28px;
-font-weight: 600;
-line-height: normal;
-font-size: 28px;
+  position: relative;
+  left: 28px;
+  font-weight: 600;
+  line-height: normal;
+  font-size: 28px;
 }
 
 .direction {
